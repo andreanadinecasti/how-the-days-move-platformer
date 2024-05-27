@@ -101,6 +101,7 @@ class Platformer extends Phaser.Scene {
             this.physics.world.drawDebug = !this.physics.world.drawDebug;
             this.physics.world.debugGraphic.clear();
         }, this);*/
+        
         this.physics.world.drawDebug = false;
 
 
