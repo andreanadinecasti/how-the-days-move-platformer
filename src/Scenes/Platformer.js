@@ -20,6 +20,7 @@ class Platformer extends Phaser.Scene {
     }
 
     create() {
+
         // Create a new tilemap game object which uses 18x18 pixel tiles, and is
         // 45 tiles wide and 25 tiles tall.
         this.map = this.add.tilemap("platformer-level-1", 16, 16, 80, 20);
@@ -185,7 +186,7 @@ class Platformer extends Phaser.Scene {
 
     death() {
         // Handle player death
-        this.scene.restart();
+        //this.scene.restart();
         //this.walkSound.stop();
     }
 }
