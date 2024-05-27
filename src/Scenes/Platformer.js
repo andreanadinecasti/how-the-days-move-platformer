@@ -96,10 +96,13 @@ class Platformer extends Phaser.Scene {
         this.rKey = this.input.keyboard.addKey('R');
 
         // Debug key listener
+        /*
         this.input.keyboard.on('keydown-D', () => {
             this.physics.world.drawDebug = !this.physics.world.drawDebug;
             this.physics.world.debugGraphic.clear();
-        }, this);
+        }, this);*/
+        this.physics.world.drawDebug = false;
+
 
         // Particle emitter for walking effect
         this.my.vfx.walking = this.add.particles(0, 0, "kenny-particles", {
@@ -186,7 +189,7 @@ class Platformer extends Phaser.Scene {
 
     death() {
         // Handle player death
-        //this.scene.restart();
+        this.scene.restart();
         //this.walkSound.stop();
     }
 }
