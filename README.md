@@ -70,5 +70,5 @@ There are 7 total — a soft narrative unfolds as you move through the week. Not
 
 ## 🔗 Links
 
-- 🎮 [Play the Game on GitHub Pages](https://your-username.github.io/killer-buns)
+- 🎮 [Play the Game on GitHub Pages](https://andreanadinecasti.github.io/how-the-days-move-platformer/)
 
