@@ -68,7 +68,7 @@ There are 7 total — a soft narrative unfolds as you move through the week. Not
 
 ---
 
-Stay tuned for more levels like **Tuesday**, **Wednesday**, and beyond...
+## 🔗 Links
 
-🌧️
+- 🎮 [Play the Game on GitHub Pages](https://your-username.github.io/killer-buns)
 
